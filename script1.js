@@ -1,3 +1,5 @@
 const people = require('./people');
-const _ = require('lodash');
-console.log(_.last(people));
+const path = require('path');
+const myPath = 'C:/Users/Masudur Rahman/Desktop/javascript workshop/crud-in-nodejs';
+
+console.log(path.parse(myPath));
